@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: edd8503c7c82a7748a66a1257c076adb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4195687696218142806
+    second: ForestTile_0
+  - first:
+      213: 2918565149622113277
+    second: ForestTile_1
+  - first:
+      213: -7664747167418239247
+    second: ForestTile_2
+  - first:
+      213: -6546709964455254706
+    second: ForestTile_3
+  - first:
+      213: -843080356849903563
+    second: ForestTile_4
+  - first:
+      213: -5154197472394216889
+    second: ForestTile_5
+  - first:
+      213: 7892499902349895731
+    second: ForestTile_6
+  - first:
+      213: 833055677528044913
+    second: ForestTile_7
+  - first:
+      213: -5766560146959918171
+    second: ForestTile_8
+  - first:
+      213: -5269144617516686605
+    second: ForestTile_9
+  - first:
+      213: 5808587064573956244
+    second: ForestTile_10
+  - first:
+      213: -1534545947477435688
+    second: ForestTile_11
+  - first:
+      213: 7473156974050506501
+    second: ForestTile_12
+  - first:
+      213: -7124764437435001184
+    second: ForestTile_13
+  - first:
+      213: -6137572081462163269
+    second: ForestTile_14
+  - first:
+      213: -9099789553188041251
+    second: ForestTile_15
+  - first:
+      213: -1099143551338457719
+    second: ForestTile_16
+  - first:
+      213: 2902647402186876371
+    second: ForestTile_17
+  - first:
+      213: 6653188191140057008
+    second: ForestTile_18
+  - first:
+      213: 8702339592083801621
+    second: ForestTile_19
+  - first:
+      213: -6770923392358782313
+    second: ForestTile_20
+  - first:
+      213: -2174969395224741768
+    second: ForestTile_21
+  - first:
+      213: -5936656149090062142
+    second: ForestTile_22
+  - first:
+      213: -7215078833989304937
+    second: ForestTile_23
+  - first:
+      213: 3664673530562743844
+    second: ForestTile_24
+  - first:
+      213: 3089305618340556338
+    second: ForestTile_25
+  - first:
+      213: -456675839372991
+    second: ForestTile_26
+  - first:
+      213: 2478005838470936405
+    second: ForestTile_27
+  - first:
+      213: -4027472555878742167
+    second: ForestTile_28
+  - first:
+      213: 6751549715542366126
+    second: ForestTile_29
+  - first:
+      213: 7084539140591434361
+    second: ForestTile_30
+  - first:
+      213: 2253063185321486496
+    second: ForestTile_31
+  - first:
+      213: 149488573539594786
+    second: ForestTile_32
+  - first:
+      213: -1059363742145371802
+    second: ForestTile_33
+  - first:
+      213: 4269031740747228476
+    second: ForestTile_34
+  - first:
+      213: 2819642872015911825
+    second: ForestTile_35
+  - first:
+      213: 1739858484077515500
+    second: ForestTile_36
+  - first:
+      213: 2832099457777955039
+    second: ForestTile_37
+  - first:
+      213: -3174073935149362651
+    second: ForestTile_38
+  - first:
+      213: -696108202904562821
+    second: ForestTile_39
+  - first:
+      213: 7587204425089237915
+    second: ForestTile_40
+  - first:
+      213: 1490531630070552895
+    second: ForestTile_41
+  - first:
+      213: 1988886530116298789
+    second: ForestTile_42
+  - first:
+      213: -8201778353355560979
+    second: ForestTile_43
+  - first:
+      213: -4850906830673047166
+    second: ForestTile_44
+  - first:
+      213: -3461116610148759865
+    second: ForestTile_45
+  - first:
+      213: 1446081306283759661
+    second: ForestTile_46
+  - first:
+      213: -907720870195264079
+    second: ForestTile_47
+  - first:
+      213: -7818440856109732834
+    second: ForestTile_48
+  - first:
+      213: -5002385151274261289
+    second: ForestTile_49
+  - first:
+      213: 7779951437946455125
+    second: ForestTile_50
+  - first:
+      213: -1437357341146063392
+    second: ForestTile_51
+  - first:
+      213: -5443236357580703585
+    second: ForestTile_52
+  - first:
+      213: -37727463167404847
+    second: ForestTile_53
+  - first:
+      213: -2575507502893430232
+    second: ForestTile_54
+  - first:
+      213: -3404538779997697629
+    second: ForestTile_55
+  - first:
+      213: -1667150268369707446
+    second: ForestTile_56
+  - first:
+      213: 5363261508869717415
+    second: ForestTile_57
+  - first:
+      213: -3428424458104236900
+    second: ForestTile_58
+  - first:
+      213: 3129822330224443211
+    second: ForestTile_59
+  - first:
+      213: 4960820197975945618
+    second: ForestTile_60
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ForestTile_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7c07e154ce5c5c0800000000000000
+      internalID: -4195687696218142806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df39f055a83d08820800000000000000
+      internalID: 2918565149622113277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6bad09f0951a590800000000000000
+      internalID: -7664747167418239247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45622929f96525a0800000000000000
+      internalID: -6546709964455254706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 156
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5381adcd1e6cc44f0800000000000000
+      internalID: -843080356849903563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74af9bbf4bc9878b0800000000000000
+      internalID: -5154197472394216889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 155
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338ee5d48dac78d60800000000000000
+      internalID: 7892499902349895731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 136
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1757e2999bb9f8b00800000000000000
+      internalID: 833055677528044913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 136
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab9780591019ffa0800000000000000
+      internalID: -5766560146959918171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a1c233ec30e6b0800000000000000
+      internalID: -5269144617516686605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 117
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4901cd6f82f3c9050800000000000000
+      internalID: 5808587064573956244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 136
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da9715579234bae0800000000000000
+      internalID: -1534545947477435688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 136
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50773056cacf5b760800000000000000
+      internalID: 7473156974050506501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 136
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6d9562e70cf1d90800000000000000
+      internalID: -7124764437435001184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c71dc5b6f2daa0800000000000000
+      internalID: -6137572081462163269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd8a673d9d07b180800000000000000
+      internalID: -9099789553188041251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 117
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9855f4973ce0fb0f0800000000000000
+      internalID: -1099143551338457719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 117
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d52f83fe66484820800000000000000
+      internalID: 2902647402186876371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 121
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf0ab4e86fd45c50800000000000000
+      internalID: 6653188191140057008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51609f480cbe4c870800000000000000
+      internalID: 8702339592083801621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a621d6c09d802a0800000000000000
+      internalID: -6770923392358782313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 98
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8787848cbd4f0d1e0800000000000000
+      internalID: -2174969395224741768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 98
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c039d7afa2cc9da0800000000000000
+      internalID: -5936656149090062142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_23
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 98
+        width: 3
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79db0a11704eedb90800000000000000
+      internalID: -7215078833989304937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e08f6e8298bd230800000000000000
+      internalID: 3664673530562743844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eaecf871b6fda20800000000000000
+      internalID: 3089305618340556338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14111ded7a06efff0800000000000000
+      internalID: -456675839372991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55777695e25a36220800000000000000
+      internalID: 2478005838470936405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96786348c0b8b18c0800000000000000
+      internalID: -4027472555878742167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 79
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7da4ee1b252bd50800000000000000
+      internalID: 6751549715542366126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97abd4810d6515260800000000000000
+      internalID: 7084539140591434361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 60
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8e891a70d744f10800000000000000
+      internalID: 2253063185321486496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_32
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222becbc017131200800000000000000
+      internalID: 149488573539594786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_33
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6612f7d0a426c41f0800000000000000
+      internalID: -1059363742145371802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 70
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c352b1affb5ae3b30800000000000000
+      internalID: 4269031740747228476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_35
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b78f3c042612720800000000000000
+      internalID: 2819642872015911825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d3e6b218352810800000000000000
+      internalID: 1739858484077515500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_37
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 66
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd07e65a373ad4720800000000000000
+      internalID: 2832099457777955039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 72
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522989ca29c63f3d0800000000000000
+      internalID: -3174073935149362651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7353a0174de656f0800000000000000
+      internalID: -696108202904562821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 41
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9347b3d93a2b4960800000000000000
+      internalID: 7587204425089237915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39d6d0de9e6fa410800000000000000
+      internalID: 1490531630070552895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 41
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5282426f2c1f99b10800000000000000
+      internalID: 1988886530116298789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 22
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7e0c1ea0e6d2e80800000000000000
+      internalID: -8201778353355560979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_44
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 22
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281973f40fd1eacb0800000000000000
+      internalID: -4850906830673047166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c601e5e7c4a7ffc0800000000000000
+      internalID: -3461116610148759865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_46
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 22
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2850615943811410800000000000000
+      internalID: 1446081306283759661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 22
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b58dc88da02763f0800000000000000
+      internalID: -907720870195264079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_48
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cad2a17715f7390800000000000000
+      internalID: -7818440856109732834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 13
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4eb9c6535f39ab0800000000000000
+      internalID: -5002385151274261289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5548694ec90f7fb60800000000000000
+      internalID: 7779951437946455125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_51
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 54
+        width: 16
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed50b91d1b7d0ce0800000000000000
+      internalID: -1437357341146063392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 98
+        width: 2
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9839ed4f5db574b0800000000000000
+      internalID: -5443236357580703585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_53
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 79
+        width: 2
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d451a77217f97ff0800000000000000
+      internalID: -37727463167404847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_54
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 98
+        width: 3
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0fad5295f14cd0800000000000000
+      internalID: -2575507502893430232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_55
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 98
+        width: 3
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a902328406a0c0d0800000000000000
+      internalID: -3404538779997697629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 136
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e50a2f9a71dd8e0800000000000000
+      internalID: -1667150268369707446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_57
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad74b13de12e6a40800000000000000
+      internalID: 5363261508869717415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_58
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 41
+        width: 16
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c949f63be1acb60d0800000000000000
+      internalID: -3428424458104236900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_59
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 41
+        width: 16
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ffc1ba3dc5f6b20800000000000000
+      internalID: 3129822330224443211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestTile_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 10
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29170febfaf58d440800000000000000
+      internalID: 4960820197975945618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

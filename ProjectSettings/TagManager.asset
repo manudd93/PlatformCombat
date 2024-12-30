@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - HealtBar
+  - HealtText
+  - Weapon
+  - Sigillo
+  - IstantItem
+  - Enemy
+  - Item
+  - Magic
+  - Face
+  - Fontana
+  - ExpBar
+  - TextLV
+  - MaxHealtText
+  - TitleButton
+  - DescButton
+  - ImageButton
+  - LevelNumberButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - IgnorePlayer
+  - Ground
+  - Enemy
+  - Player
+  - EnemyCollider
+  - Armi
+  - Sigillo
+  - Demon
+  - Fountain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Edifici
+    uniqueID: 2014044497
+    locked: 0
+  - name: Nemici
+    uniqueID: 2559278905
+    locked: 0
+  - name: Player
+    uniqueID: 2824552955
+    locked: 0
+  - name: Ground
+    uniqueID: 959142311
+    locked: 0
+  - name: Effect
+    uniqueID: 3880832471
+    locked: 0
+  - name: Object
+    uniqueID: 1082003343
+    locked: 0

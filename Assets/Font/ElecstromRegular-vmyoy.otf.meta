@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: de59ef046d43d5b4b805de0d4f9df39a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 120
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Elecstrom
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e7598d17ea5f510438b479f40c929328, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
