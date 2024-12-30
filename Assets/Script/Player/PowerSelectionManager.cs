@@ -12,11 +12,11 @@ public class PowerSelectionManager : MonoBehaviour
 
     public List<Skill> availableSkills = new List<Skill>();
     private List<Skill> currentSkillChoices;
-    PlayerStateController playerStateController;
+    PowerManager powerManager;
     // Start is called before the first frame update
     void Start()
     {
-        playerStateController = GetComponent<PlayerStateController>();
+        powerManager = GetComponent<PowerManager>();
     }
     public void StartSelection()
     {
@@ -138,12 +138,14 @@ public class PowerSelectionManager : MonoBehaviour
     private void IncreaseHealth()
     {
         Debug.Log("Salute aumentata!");
+        powerManager.AddLife();
         // Inserisci qui la logica per aumentare la salute
     }
 
     private void IncreaseAttack()
     {
         Debug.Log("Attacco aumentato!");
+        powerManager.AddDamage();
         // Inserisci qui la logica per aumentare l'attacco
     }
 

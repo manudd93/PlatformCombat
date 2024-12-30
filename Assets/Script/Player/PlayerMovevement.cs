@@ -29,12 +29,14 @@ public class PlayerMovevement : MonoBehaviour
    public float HorizontalMove;
       
     public float MoveSpeed=2f;
+    [SerializeField] float IncreaseMoveSpeed=0;
     public bool IsMoving;
     MeleeAttackSystem meleeAttack;
     PlayerStateController playerStateController;
     FootStepSound footStepSound;
     public float jumpCounter;
     public float Jumptimer;
+    
     
 void Awake(){
     
@@ -50,7 +52,10 @@ void Awake(){
         footStepSound=GetComponent<FootStepSound>();
     }
 
- 
+   public void AddMoveSpeed(float amount)
+    {
+        IncreaseMoveSpeed += amount;
+    }
     void FixedUpdate()
     {
 
@@ -64,7 +69,7 @@ void Awake(){
             {
                // Player.transform.Translate(new Vector3(1f*MoveSpeed*Time.deltaTime,0f,0f));
           HorizontalMove=Input.GetAxisRaw("Horizontal");
-                RB.velocity = new Vector2(HorizontalMove * MoveSpeed, RB.velocity.y);
+                RB.velocity = new Vector2(HorizontalMove * MoveSpeed+IncreaseMoveSpeed, RB.velocity.y);
        
            
             if(Flipped==true){

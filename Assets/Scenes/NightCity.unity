@@ -122575,6 +122575,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0014851093, y: -1.12}
   m_Size: {x: 0.91, y: 2.76}
   m_Direction: 0
+--- !u!114 &689091953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689091951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abc56644f9202d47b3be80bd69430db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AmountHealt: 7
+  AmountDamage: 5
+  AmountMoveSpeed: 1
 --- !u!4 &689091961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1941703445892213331, guid: bbe5f0d88c164f841a1837a725d1ed51,
@@ -132556,6 +132571,7 @@ MonoBehaviour:
   PowerJump: 10
   HorizontalMove: 0
   MoveSpeed: 5
+  IncreaseMoveSpeed: 0
   IsMoving: 0
   jumpCounter: 0
   Jumptimer: 0

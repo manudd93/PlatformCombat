@@ -28,6 +28,7 @@ public class MeleeAttackSystem : MonoBehaviour
      PlayerStateController playerStateController;
     Vector3 MousePos;
     int DamageGrowing;
+    int IncreasePlusDamage;
 
 
     // Start is called before the first frame update
@@ -136,6 +137,11 @@ public class MeleeAttackSystem : MonoBehaviour
        // Debug.Log(NumberAttack[index].Information);
     }
 
+
+    public void IncreaseDamage(int Amount)
+    {
+        IncreasePlusDamage += Amount;
+    }
     public void RangedAttackUnidirectioal(int index)
     {
         Debug.Log("RangedUnidirectional");
@@ -229,7 +235,7 @@ public class MeleeAttackSystem : MonoBehaviour
             {
                 audioSource.volume = Mathf.Clamp01(0.2f);
                 audioSource.PlayOneShot(NumberAttack[NumberClick - 1].SFXAttackHit);
-                enemy.GetComponent<EnemyBaseHealt>().TakeDamage(NumberAttack[NumberClick - 1].Damage+DamageGrowing);
+                enemy.GetComponent<EnemyBaseHealt>().TakeDamage(NumberAttack[NumberClick - 1].Damage+DamageGrowing+IncreasePlusDamage);
                  
                   if(NumberAttack[NumberClick-1].Information=="KnockUp"){
  enemy.GetComponent<KnockBackFeedBack>().PlayKnockUp(this.gameObject,playerMove.Flipped,NumberAttack[NumberClick - 1].KnockPower,NumberAttack[NumberClick - 1].KnockDelay);

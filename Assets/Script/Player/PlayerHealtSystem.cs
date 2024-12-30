@@ -96,6 +96,19 @@ if(Healt==MaxHealt){
 
 
     }
+
+    public void addHealt(int Amount)
+    {
+        MaxHealt += Amount;
+        maxBar = MaxHealt;
+        if (Healt > MaxHealt)
+        {
+            Healt = MaxHealt;
+        }
+        HealBar.fillAmount = Healt / maxBar;
+        MaxHealtText.text = "/" + MaxHealt.ToString();
+        HealtText.text = Healt.ToString();
+    }
     public void TakeDamage(int Damage){
 
 
