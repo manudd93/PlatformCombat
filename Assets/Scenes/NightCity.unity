@@ -122559,37 +122559,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 778523096}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &689091952
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689091951}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 911e610c8d008b446a11c0f098dc7d21, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0014851093, y: -1.12}
-  m_Size: {x: 0.91, y: 2.76}
-  m_Direction: 0
---- !u!114 &689091953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689091951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5abc56644f9202d47b3be80bd69430db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AmountHealt: 7
-  AmountDamage: 5
-  AmountMoveSpeed: 1
 --- !u!4 &689091961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1941703445892213331, guid: bbe5f0d88c164f841a1837a725d1ed51,
@@ -123352,10 +123321,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 143603991}
     m_Modifications:
-    - target: {fileID: 689091952, guid: bbe5f0d88c164f841a1837a725d1ed51, type: 3}
-      propertyPath: MinDistance
-      value: 1.1279948
-      objectReference: {fileID: 0}
     - target: {fileID: 849582359, guid: bbe5f0d88c164f841a1837a725d1ed51, type: 3}
       propertyPath: ItemSlot
       value: 
@@ -123382,49 +123347,9 @@ PrefabInstance:
       objectReference: {fileID: 180486428}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: textLevel
-      value: 
-      objectReference: {fileID: 843852290}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textButtonName
-      value: 
-      objectReference: {fileID: 887192953}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textDescription
-      value: 
-      objectReference: {fileID: 1083975916}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
       propertyPath: showPanelSelection
       value: 
       objectReference: {fileID: 268123086}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textButton.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textButton.Array.data[0]
-      value: 
-      objectReference: {fileID: 887192953}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textButton.Array.data[1]
-      value: 
-      objectReference: {fileID: 1083975916}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textButton.Array.data[2]
-      value: 
-      objectReference: {fileID: 843852290}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: textButton.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
       propertyPath: buttonSelection.Array.data[0]
@@ -123442,98 +123367,48 @@ PrefabInstance:
       objectReference: {fileID: 1564752811}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[0].skillName
-      value: Vita+
+      propertyPath: availableSkills.Array.data[12].Level
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[1].skillName
-      value: Danno+
+      propertyPath: availableSkills.Array.data[13].Level
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[2].skillName
-      value: Velocita+
+      propertyPath: availableSkills.Array.data[3].MaxLevel
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[6].skillName
-      value: 'Passiva : Schivata'
+      propertyPath: availableSkills.Array.data[6].MaxLevel
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[8].skillName
-      value: Range+
+      propertyPath: availableSkills.Array.data[8].MaxLevel
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[0].description
-      value: Aumento della via massima
+      propertyPath: availableSkills.Array.data[9].MaxLevel
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[1].description
-      value: Aumenta i danni inflitti
+      propertyPath: availableSkills.Array.data[10].MaxLevel
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[2].description
-      value: Aumento della velocita di movimento
+      propertyPath: availableSkills.Array.data[14].MaxLevel
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
-      propertyPath: availableSkills.Array.data[4].description
-      value: 'Spara un colpo di fucile '
-      objectReference: {fileID: 0}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: availableSkills.Array.data[5].description
-      value: Infliggi danno critico
-      objectReference: {fileID: 0}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: availableSkills.Array.data[6].description
-      value: Probabilita di non essere colpito
-      objectReference: {fileID: 0}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: availableSkills.Array.data[7].description
-      value: Gli attacchi base infliggono danni da incendio
-      objectReference: {fileID: 0}
-    - target: {fileID: 632263381188145068, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: availableSkills.Array.data[8].description
-      value: Aumenta il raggio dei tuoi attacchi base
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213328, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213328, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 3.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213328, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.5866244
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213328, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213329, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: PowerJump
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213329, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: whatisGround.m_Bits
-      value: 768
+      propertyPath: availableSkills.Array.data[16].MaxLevel
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1941703445892213331, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
@@ -123605,16 +123480,6 @@ PrefabInstance:
       propertyPath: HealtText
       value: 
       objectReference: {fileID: 347637923}
-    - target: {fileID: 1941703445892213334, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1941703445892213335, guid: bbe5f0d88c164f841a1837a725d1ed51,
-        type: 3}
-      propertyPath: lowJump
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 1941703445892213340, guid: bbe5f0d88c164f841a1837a725d1ed51,
         type: 3}
       propertyPath: m_Name

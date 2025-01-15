@@ -45,6 +45,7 @@ public class PowerSelectionManager : MonoBehaviour
 
         // Crea una copia temporanea della lista disponibile per evitare duplicati
         List<Skill> tempSkills = new List<Skill>(availableSkills);
+        
 
         for (int i = 0; i < buttonSelection.Length; i++)
         {
@@ -66,9 +67,38 @@ public class PowerSelectionManager : MonoBehaviour
             {
                 buttonSelection[i].gameObject.SetActive(true); // Assicura che il pulsante sia visibile
                 Text[] textButton = buttonSelection[i].GetComponentsInChildren<Text>();
+                currentSkillChoices[i].Level += 1;
                 textButton[0].text = currentSkillChoices[i].skillName;
                 textButton[1].text = currentSkillChoices[i].description;
                 textButton[3].text = currentSkillChoices[i].Level.ToString();
+                 
+                if (currentSkillChoices[i].classType == ClassType.Berserker)
+                {
+                    
+                    var parentObject = textButton[i].GetComponentsInParent<Image>();
+                    Debug.Log(parentObject[1].gameObject.name);
+                    parentObject[1].color = Color.red;
+                    
+                }
+                if (currentSkillChoices[i].classType == ClassType.Base)
+                {
+                    var parentObject = textButton[i].GetComponentsInParent<Image>();
+                    Debug.Log(parentObject[1].gameObject.name);
+                    parentObject[1].color = Color.cyan;
+                }
+                if (currentSkillChoices[i].classType == ClassType.Gunfight)
+                {
+                    var parentObject = textButton[i].GetComponentsInParent<Image>();
+                    Debug.Log(parentObject[1].gameObject.name);
+                    parentObject[1].color = Color.green;
+                }
+                if (currentSkillChoices[i].classType == ClassType.Tekno)
+                {
+                    var parentObject = textButton[i].GetComponentsInParent<Image>();
+                    Debug.Log(parentObject[1].gameObject.name);
+                    parentObject[1].color = Color.blue;
+
+                }
                 //buttonSelection[i].GetComponentInChildren<Text>().text = currentSkillChoices[i].skillName; // Mostra il nome della skill
                 int index = i; // Importante per evitare problemi di chiusura su lambda
                 buttonSelection[i].onClick.RemoveAllListeners();
@@ -127,7 +157,34 @@ public class PowerSelectionManager : MonoBehaviour
             case SkillEffectType.Miss:
                 Miss();
                 break;
-         
+            case SkillEffectType.Assistente:
+                SummonFriend();
+                break;
+            case SkillEffectType.DoubleJump:
+                DoubleJump();
+                break;
+            case SkillEffectType.DroneLaser:
+                SummonDrone();
+                break;
+            case SkillEffectType.HeavyMachineGun:
+                AssaultRifle();
+                break;
+            case SkillEffectType.RiduciDifesa:
+                DefenseLow();
+                break;
+            case SkillEffectType.SparaPalleDifuoco:
+                FireBall();
+                break;
+            case SkillEffectType.SuperPugno:
+                SuperPunch();
+                break;
+            case SkillEffectType.Terremoto:
+                Terremoto();
+                break;
+            case SkillEffectType.Revolver:
+                Revolver();
+                break;
+           
             default:
                 Debug.LogWarning("Tipo di effetto non definito");
                 break;
@@ -183,6 +240,51 @@ public class PowerSelectionManager : MonoBehaviour
     {
         Debug.Log("aumento range");
     }
+
+    void SummonFriend()
+    {
+        Debug.Log("Amico chiamato");
+
+
+    }
+
+    void DoubleJump()
+    {
+        Debug.Log("doppio salto");
+    }
+
+    void SummonDrone()
+    {
+        Debug.Log("drone attivato");
+    }
+
+    void AssaultRifle()
+    {
+        Debug.Log("fucile di assalto ");
+    }
+
+    void DefenseLow()
+    {
+        Debug.Log("ora puoi ridurre difesa");
+    }
+    void FireBall()
+    {
+        Debug.Log("ora puoi lanciare palla di fuoco");
+    }
+
+    void SuperPunch()
+    {
+        Debug.Log(" super pugno");
+    }
+    void Terremoto()
+    {
+        Debug.Log("terremoto");
+    }
+
+    void Revolver()
+    {
+        Debug.Log("revolver attiva");
+    }
 }
 
 [System.Serializable]
@@ -191,7 +293,18 @@ public class Skill
     public string skillName; // Nome della skill
     public string description;
     public int Level;
+    public int MaxLevel;
     public SkillEffectType effectType; // Tipo di effetto della skill
+    public ClassType classType;
+
+}
+public enum ClassType
+{
+    Base,
+    Berserker,
+    Gunfight,
+    Tekno
+    
 }
 
 public enum SkillEffectType
@@ -205,6 +318,16 @@ public enum SkillEffectType
     Incendio,
     Fucilata,
     Miss,
+    SuperPugno,
+    Terremoto,
+    GrabEnemy,
+    RiduciDifesa,
+    Revolver,
+    HeavyMachineGun,
+    DoubleJump,
+    DroneLaser,
+    SparaPalleDifuoco,
+    Assistente
 
     
 }

@@ -54,6 +54,8 @@ GameObject:
   - component: {fileID: 689091965}
   - component: {fileID: 138100080177910317}
   - component: {fileID: 632263381188145068}
+  - component: {fileID: 6533400582557030703}
+  - component: {fileID: 689091953}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -164,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallmultiplier: 9
-  lowJump: 2
+  lowJump: 4
   RB: {fileID: 1941703445892213334}
 --- !u!114 &1941703445892213329
 MonoBehaviour:
@@ -180,7 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whatisGround:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
   feet: {fileID: 5974857723298593648}
   Flipped: 0
   isJump: 0
@@ -195,10 +197,13 @@ MonoBehaviour:
   Player: {fileID: 1941703445892213340}
   RB: {fileID: 1941703445892213334}
   ColliderCapsule: {fileID: 1941703445892213328}
-  PowerJump: 10
+  PowerJump: 20
   HorizontalMove: 0
   MoveSpeed: 8
+  IncreaseMoveSpeed: 0
   IsMoving: 0
+  jumpCounter: 0
+  Jumptimer: 0
 --- !u!50 &1941703445892213334
 Rigidbody2D:
   serializedVersion: 4
@@ -215,7 +220,7 @@ Rigidbody2D:
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 911e610c8d008b446a11c0f098dc7d21, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 1
@@ -261,8 +266,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0014852285, y: -0.56999993}
-  m_Size: {x: 1.3062389, y: 3.69}
+  m_Offset: {x: 0.0014852285, y: -0.5866244}
+  m_Size: {x: 1.54, y: 3.15}
   m_Direction: 0
 --- !u!114 &7066422267465475327
 MonoBehaviour:
@@ -328,7 +333,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.1279948
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -499,33 +504,133 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   availableSkills:
-  - skillName: Aumento della vita
+  - skillName: Vita+
+    description: Aumento della via massima
     Level: 0
     effectType: 0
-  - skillName: Aumenta danno
+    classType: 0
+  - skillName: Danno+
+    description: Aumenta i danni inflitti
     Level: 0
     effectType: 1
-  - skillName: Aumenta velocita
+    classType: 0
+  - skillName: Velocita+
+    description: Aumento della velocita di movimento
     Level: 0
     effectType: 2
+    classType: 0
   - skillName: 'Passiva: Rigenerazione vita'
+    description: 
     Level: 0
     effectType: 3
+    classType: 1
   - skillName: 'Abilita: Colpo di fucile'
+    description: 'Spara un colpo di fucile '
     Level: 0
     effectType: 7
+    classType: 2
   - skillName: 'Passiva: critico'
+    description: Infliggi danno critico
     Level: 0
     effectType: 5
-  - skillName: 'Passiva : Shivata'
+    classType: 1
+  - skillName: 'Passiva : Schivata'
+    description: Probabilita di non essere colpito
     Level: 0
     effectType: 8
+    classType: 2
   - skillName: 'Passiva: Incendio'
+    description: Gli attacchi base infliggono danni da incendio
     Level: 0
     effectType: 6
-  - skillName: Aumento del range
+    classType: 2
+  - skillName: Range+
+    description: Aumenta il raggio dei tuoi attacchi base
     Level: 0
     effectType: 4
+    classType: 0
+  - skillName: Super Pugno
+    description: Tieni premuto per caricare un pugno devastante
+    Level: 0
+    effectType: 9
+    classType: 1
+  - skillName: Terremoto
+    description: Usa questo solo quando salti e torna a terra in grande stile
+    Level: 0
+    effectType: 10
+    classType: 1
+  - skillName: Presa
+    description: Prendi un nemico e dagliele di santa ragione
+    Level: 0
+    effectType: 11
+    classType: 1
+  - skillName: Revolver
+    description: 'Spara una serie di colpi in avanti '
+    Level: 0
+    effectType: 13
+    classType: 2
+  - skillName: Assalto
+    description: Spara con un fucile di assalto
+    Level: 0
+    effectType: 14
+    classType: 2
+  - skillName: Drone Laser
+    description: Un drone orbita intorno a te e spara una serie di colpi laser ai
+      nemici
+    Level: 0
+    effectType: 16
+    classType: 3
+  - skillName: Riduci difesa
+    description: i tuoi attacchi possono ridurre la difesa del nemici
+    Level: 0
+    effectType: 12
+    classType: 3
+  - skillName: Doppio salto
+    description: Ora puoi saltare 2 volte
+    Level: 0
+    effectType: 15
+    classType: 3
+  - skillName: 'Palla di fuoco '
+    description: Spara una palla di fuoco che danneggia i nemici
+    Level: 0
+    effectType: 17
+    classType: 3
+  - skillName: Assistente
+    description: Chiama un tuo amico per farti dare una mano
+    Level: 0
+    effectType: 18
+    classType: 3
+--- !u!70 &6533400582557030703
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941703445892213340}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 911e610c8d008b446a11c0f098dc7d21, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0014851093, y: -1.12}
+  m_Size: {x: 0.91, y: 2.76}
+  m_Direction: 0
+--- !u!114 &689091953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941703445892213340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abc56644f9202d47b3be80bd69430db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AmountHealt: 7
+  AmountDamage: 5
+  AmountMoveSpeed: 1
 --- !u!1 &1941703445904217163
 GameObject:
   m_ObjectHideFlags: 0
